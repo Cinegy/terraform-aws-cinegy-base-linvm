@@ -1,3 +1,3 @@
 # terraform-aws-cinegy-base-winvm
-# terraform-aws-cinegy-base-linvm
-# terraform-aws-cinegy-base-linvm
+
+A Cinegy-style linux VM template definition for Terraform
