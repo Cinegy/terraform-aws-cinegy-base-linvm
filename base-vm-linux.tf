@@ -48,8 +48,9 @@ resource "aws_instance" "vm" {
   iam_instance_profile = var.instance_profile
   subnet_id            = var.instance_subnet
   tenancy              = var.tenancy
-  ebs_optimized = true
-
+  ebs_optimized        = true
+  user_data            = var.user_data
+  
   root_block_device {
     volume_size = var.root_volume_size
   }

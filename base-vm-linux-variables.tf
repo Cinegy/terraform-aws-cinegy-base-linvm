@@ -99,3 +99,8 @@ variable "security_groups" {
   description = "Array of security group IDs to attach to the instance"
   default = []
 }
+
+variable "user_data" {
+  description = "Custom string representing a script to execute on the instance during initial boot after creation"
+  default = []
+}
